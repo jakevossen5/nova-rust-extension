@@ -1,0 +1,24 @@
+<syntax name="Rust">
+<meta>
+	<type>compiled</type>
+	<name>Rust</name>
+	<preferred-file-extension>rs</preferred-file-extension>
+</meta>
+
+<detectors>
+	<extension priority="1.0">rs</extension>
+</detectors>
+
+<comments>
+	<single>
+		<expression>//</expression>
+	</single>
+</comments>
+
+<brackets>
+	<pair open="{" close="}" />
+	<pair open="[" close="]" />
+	<pair open="(" close=")" />
+</brackets>
+
+</syntax>
